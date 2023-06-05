@@ -1,0 +1,26 @@
+{
+  "name": "ep2_igniting_our_app",
+  "version": "1.0.0",
+  "description": "\"Nothing much\"",
+  "main": "App.js",
+  "scripts": {
+    "test": "\"jest\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "NULL"
+  },
+  "keywords": [
+    "NULL"
+  ],
+  "author": "Amogh Dodawad",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.9.1",
+    "process": "^0.11.10"
+  }
+}

@@ -1,0 +1,27 @@
+React is very fast at DOM manipulation and it keeps the UI layer and Data layer in sync.
+
+What makes React so fast? How does it work behind the scene?
+- Reconciliation algorithm (React Fiber)
+Assume that inside res-container there are n restaurant cards
+
+
+|----------|
+| Res-cont |
+|----------|
+      |
+      |
+-------------------------
+  |     |    |    |    |
+  |     |    |    |    |
+|----|               |-------|
+| RC1|               |  RCn  |
+|----|               |-------|
+
+Before rendering this onto the DOM, React creates a VIRTUAL DOM, which is just a
+normal JS Object.
+
+https://www.geeksforgeeks.org/reactjs-virtual-dom/
+
+Diff algorithm:
+Diff algorithm finds difference between 2 virtual DOMs, that is the updated and the previous virtual DOM
+and it will actually update the DOM on every render cycle.

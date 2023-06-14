@@ -1,0 +1,27 @@
+Episode 5: Lets get hooked!
+
+In this Episode we are going to learn React Hooks!
+- So in previous episode we had created a very large App.js file which is not considered as a 
+  good industry practice so in this episode we'll be splitting up each component into different
+  files
+
+- Whenever you try to name a file related to a component, make sure that you name it exactly the
+  way the component is named.
+
+Question: Can you combine both named and default exports in a single file?
+Yes it can be done. React is a great example of a library that exports both default and named components.
+            
+            {import React, {useState, useEffect} from "react"}
+
+As we just now saw that even after clicking the button the UI did not update. To do so we need a state variable,
+that is a super powerful variable(hooks/useState).
+
+So what is a hook?
+It is a normal javascript function given to us by React which we can use to isolate reusable part from the
+functional component.
+Some of the common react hooks are :
+    - useState() : Superpowerful state variables in React
+    - useEffect() : 
+
+Whenever a state variable is updated, React will re-render the component. 
+

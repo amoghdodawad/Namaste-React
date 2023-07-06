@@ -1,0 +1,1 @@
+If no dependency array, then useEffect is called on every component render.

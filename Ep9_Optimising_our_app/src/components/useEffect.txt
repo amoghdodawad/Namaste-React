@@ -1,0 +1,5 @@
+Like useState, useEffect is another React Hook.
+It takes 2 arguments, a callback function and a dependency array.
+
+So when does the callback function gets executed?
+-> It is executed once the component is rendered

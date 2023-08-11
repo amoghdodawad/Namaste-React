@@ -1,0 +1,6 @@
+Single responsibility principle:
+    Every Component should have a single responsibility so that we 
+    achieve following things:
+        Code reusability
+        Code maintainability
+        Code testability

@@ -1,0 +1,25 @@
+Monolith vs microservices architecture.
+
+Monolith architecture :
+So here's a story from Akshay Saini, during the early stages of his career he used to work in
+a company called LendingKart, where there was this huge project written in Java that consisted
+of everything like APIs, UI, DB Connections, SMS, Authentication. Everytime if a change had to
+be made, even simple changes like changing the color, they had to recompile the whole big
+project.
+
+Microservices architecture:
+But in uber, each of these components were divided into different projects known as
+"microservices". This is known as seperation of concern. It is also known as single
+responsibily principle, where every service does a single job and nothing interferes
+with it
+
+
+2 approaches to make a network request:
+    - 1: Page loads -> API fetches the data -> The UI is then rendered
+         We must have seen that sometimes the webpage is totally empty then it
+         gets loaded all of a sudden! This happens because API takes some time
+         to fetch the data.
+    - 2: Page loads -> Render the UI -> API fethches the data -> Page is re-rendered
+
+In react we usually follow the 2nd approach, because it gives a better UX, during the first
+500 ms, our page is like kind of frozen.
